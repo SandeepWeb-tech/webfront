@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url("rain.jpg");
+    background-size: cover;
+    height: 100vh;
+    z-index: -1;
+}
+.first_info input{
+    font-size: 20px;
+    color: black;
+}
+.header{
+    background-color: #008891;
+    opacity: 0.6;
+}
+.first_info ,.logo_name,.last_info{
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+a {
+    font-size: 20px;
+}
+.first_info{
+    width: 30%;
+    position: relative;
+    left: 20px;
+    padding: 8px;
+
+    
+}
+input{
+    padding: 3px 0 3px 0;
+    background-color: transparent;
+}
+input:hover{
+    background-color: aliceblue;
+}
+.first_info a ,.first_info input{
+    margin-left: 10px;
+}
+.first_info a{
+   
+    box-shadow: 0px 0px 3px 3px white ;
+    padding: 4px 8px 4px 8px;
+}
+
+.logo_name{
+    width: 60%;
+    text-align: center;
+    left: 18px;
+    padding: 6px 0 4px 0;
+    position: relative;
+    font-family: Harrington;
+}
+.logo_name h1{
+    color: white;
+}
+.last_info{
+
+    justify-content: flex-end;
+    position: relative;
+   left: 20px;
+    padding: 8px;
+}
+.last_info a{
+    margin-left: 10px;
+    box-shadow: 0px 0px 3px 3px white ;
+    padding: 4px 8px 4px 10px;
+}
+.feature{
+    background-color: #008891;
+    opacity: 0.3;
+}
+.feature h1{
+    padding: 8px 0px 8px 8px;
+    color: white;
+    display: inline-block;
+}
+.feature a{
+   padding: 10px 10px 10px 0px;
+    float: right;
+    margin-right: 10px;
+}
+i{
+    margin-right: 10px;
+    text-decoration: none;
+}
+.section div{
+    margin-top: 20px;
+}
+.todo ,.Doing ,.Testing,.Deploying,.Done{
+border: 1px solid black;
+display: inline-flex;
+background-color: rgb(139, 139, 139);
+opacity: 0.9;
+
+margin-right: 20px;
+margin-left: 20px;
+border-radius: 10px;
+
+}
+.todo a ,.Doing a ,.Testing a,.Deploying a,.Done a{
+   float: right;
+   color: black;
+    }
+.todo h1,.Doing h1,.Testing h1,.Deploying h1,.Done h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: inline-block;
+}
+.todo_all{
+    padding: 2px 20px 10px 20px;
+}
+.todo_input input ,.doing_input input,.testing_input input ,.deploying_input input{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+    outline: none;
+}
+.doing_all ,.doing_all ,.testing_all,.deploying_all,.done_all{
+    padding: 2px 10px 10px 10px;
+}
+#todo{
+    font-size: 15px;
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-family: Herculanum ;
+}
+.doing_all .btn{
+background-color: goldenrod;
+border: none;
+
+}
+.doing_all i{
+    margin-left: 7px;
+    
+}
+.testing_all a , .deploying_all a{
+    margin-left: 60px;
+}
+.testing_input input,.deploying_input input{
+width: 100%;
+}
+#test{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: Herculanum ;
+}
+
+.all a{
+    float: left;
+font-size: 10px;
+color: white;
+background-color: transparent;
+}
+.done_all a{
+    margin-left: 120px;
+}
